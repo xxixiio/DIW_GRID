@@ -1,20 +1,105 @@
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>Exercicis Flexbox</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <section class="container">
-            <div><span class="num">1</span></div>
-            <div><span class="num">2</span></div>
-            <div><span class="num">3</span></div>
-            <div><span class="num">4</span></div>
-            <div><span class="num">5</span></div>
-            <div><span class="num">6</span></div>
-            <div><span class="num">7</span></div>
-            <div><span class="num">8</span></div>
-            <div><span class="num">9</span></div>
-        </section>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercicis Grid</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <article>
+      <h2>
+        Ex 1. Mostrar els ítems en 2 columnes amb la propietat
+        grid-template-columns
+      </h2>
+      <section class="container ex_1">
+        <div><span class="num">1</span></div>
+        <div><span class="num">2</span></div>
+        <div><span class="num">3</span></div>
+        <div><span class="num">4</span></div>
+        <div><span class="num">5</span></div>
+        <div><span class="num">6</span></div>
+        <div><span class="num">7</span></div>
+        <div><span class="num">8</span></div>
+        <div><span class="num">9</span></div>
+      </section>
+    </article>
+    <article>
+      <h2>
+        Ex2. Mostrar els ítems en 4 columnes amb la propietat
+        grid-template-columns, la primera columna té 250px, la segona 1fr, la
+        tercera 2fr i la quarta 20%.
+      </h2>
+      <section class="container ex_2">
+        <div><span class="num">1</span></div>
+        <div><span class="num">2</span></div>
+        <div><span class="num">3</span></div>
+        <div><span class="num">4</span></div>
+        <div><span class="num">5</span></div>
+        <div><span class="num">6</span></div>
+        <div><span class="num">7</span></div>
+        <div><span class="num">8</span></div>
+        <div><span class="num">9</span></div>
+      </section>
+      <h3>Quina diferència hi ha entre px, fr i %?</h3>
+      <p>
+        px: Especifiques just la mida que vols, i es queda fixe, aquesta no
+        canvia.
+      </p>
+      <p>
+        fr: Automàticament divideix l'espai restant del grid en parts iguals.
+      </p>
+      <p>%: És respecte al espai del contenidor.</p>
+    </article>
+    <article>
+      <h2>Ex3. Posicionar els números de cada element en el centre amb flex</h2>
+      <section class="container ex_3">
+        <div><span class="num">1</span></div>
+        <div><span class="num">2</span></div>
+        <div><span class="num">3</span></div>
+        <div><span class="num">4</span></div>
+        <div><span class="num">5</span></div>
+        <div><span class="num">6</span></div>
+        <div><span class="num">7</span></div>
+        <div><span class="num">8</span></div>
+        <div><span class="num">9</span></div>
+      </section>
+    </article>
+    <article>
+      <h2>
+        Ex4. Deixar marges entre els elements amb la propietat gap: per cada
+        columna deixarem 10px i per cada fila 20px
+      </h2>
+      <section class="container ex_4">
+        <div><span class="num">1</span></div>
+        <div><span class="num">2</span></div>
+        <div><span class="num">3</span></div>
+        <div><span class="num">4</span></div>
+        <div><span class="num">5</span></div>
+        <div><span class="num">6</span></div>
+        <div><span class="num">7</span></div>
+        <div><span class="num">8</span></div>
+        <div><span class="num">9</span></div>
+      </section>
+    </article>
+    <article>
+      <h2>
+        Ex5. La fila 2 li posarem una altura de 300px utilitzant la propietat
+        grid-template-rows
+      </h2>
+      <section class="container ex_5">
+        <div><span class="num">1</span></div>
+        <div><span class="num">2</span></div>
+        <div><span class="num">3</span></div>
+        <div><span class="num">4</span></div>
+        <div><span class="num">5</span></div>
+        <div><span class="num">6</span></div>
+        <div><span class="num">7</span></div>
+        <div><span class="num">8</span></div>
+        <div><span class="num">9</span></div>
+      </section>
+      <h3>Què passa si li deixem una altura de 30%?</h3>
+      <p>Tindrà d'altura 30% de l'altura del contenidor.</p>
+      <h3>Què passa si li deixem una altura de 2fr?</h3>
+      <p>Ocuparà 2 fraccions de la divisió en parts iguals del espai lliure.</p>
+    </article>
+  </body>
 </html>
